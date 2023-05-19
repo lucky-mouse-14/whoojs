@@ -24,7 +24,8 @@
     "docs"
   ],
   "scripts": {
-    "build:whoojs": "gulp --require @esbuild-kit/cjs-loader -f internal/build/index.js"
+    "build:whoojs": "gulp --require @esbuild-kit/cjs-loader -f internal/build/index.js",
+    "publish:whoojs": "gulp --require @esbuild-kit/cjs-loader -f internal/publish/index.js"
   },
   "devDependencies": {
     "@esbuild-kit/cjs-loader": "^2.4.2",
