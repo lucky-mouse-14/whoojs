@@ -1,10 +1,10 @@
-import { pkgPath, componentsPath } from "./utils/paths.js"
-import delPath from "./utils/delPath.js"
+import { pkgPath, componentsPath } from "../utils/paths.js"
+import delPath from "../utils/delPath.js"
 import { series, parallel, src, dest } from "gulp"
 import dartSass from 'sass'
 import gulpSass from "gulp-sass"
 import gulpAutoprefixer from "gulp-autoprefixer"
-import run from './utils/run'
+import run from '../utils/run'
 
 const sass = gulpSass(dartSass)
 
