@@ -34,6 +34,7 @@
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-sass": "^5.1.0",
+    "release-it": "^15.10.3",
     "sass": "^1.62.1",
     "sucrase": "^3.32.0"
   }

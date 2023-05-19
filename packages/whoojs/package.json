@@ -16,10 +16,6 @@
     "plugins"
   ],
   "licence": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://gitclone.com/github.com/lucky-mouse-14/whoojs.git"
-  },
   "main": "cjs/index.js",
   "module": "es/index.mjs",
   "files": [
@@ -28,5 +24,12 @@
   ],
   "sideEffects": [
     "**/*.css"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucky-mouse-14/whoojs.git"
+  },
+  "scripts": {
+    "release": "release-it"
+  }
 }
