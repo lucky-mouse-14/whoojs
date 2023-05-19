@@ -1,0 +1,1 @@
+"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});const e=require("@whoojs/utils"),u=require("./src/button.vue.js"),t=e.withInstall(u.default);exports.DemoButton=t;exports.default=t;

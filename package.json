@@ -1,0 +1,39 @@
+{
+  "name": "whoojs",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A bussiness component packages of Vue3 plugins or tools",
+  "author": {
+    "name": "jhoone-wu",
+    "email": "1058011652@qq.com"
+  },
+  "keywords": [
+    "vue",
+    "javascript",
+    "vite",
+    "vue3",
+    "components",
+    "tools",
+    "plugins"
+  ],
+  "licence": "ISC",
+  "type": "module",
+  "workspaces": [
+    "packages/**",
+    "examples",
+    "docs"
+  ],
+  "scripts": {
+    "build:whoojs": "gulp --require @esbuild-kit/cjs-loader -f internal/build/index.js"
+  },
+  "devDependencies": {
+    "@esbuild-kit/cjs-loader": "^2.4.2",
+    "chalk": "^5.2.0",
+    "consola": "^3.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.62.1",
+    "sucrase": "^3.32.0"
+  }
+}

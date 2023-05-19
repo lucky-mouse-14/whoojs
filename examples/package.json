@@ -1,0 +1,36 @@
+{
+  "name": "examples",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A bussiness component packages of Vue3 plugins or tools",
+  "author": {
+    "name": "jhoone-wu",
+    "email": "1058011652@qq.com"
+  },
+  "keywords": [
+    "vue",
+    "javascript",
+    "vite",
+    "vue3",
+    "components",
+    "tools",
+    "plugins"
+  ],
+  "licence": "ISC",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "sass": "^1.62.1",
+    "vite": "^4.3.2"
+  },
+  "dependencies": {
+    "@whoojs/components": "workspace:^1.0.0",
+    "vue": "3.3.3",
+    "vue-router": "^4.0.13"
+  }
+}

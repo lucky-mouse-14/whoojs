@@ -1,0 +1,28 @@
+{
+  "name": "whoojs",
+  "version": "0.0.0",
+  "description": "A bussiness component packages of Vue3 plugins or tools",
+  "author": {
+    "name": "jhoone-wu",
+    "email": "1058011652@qq.com"
+  },
+  "keywords": [
+    "vue",
+    "javascript",
+    "vite",
+    "vue3",
+    "components",
+    "tools",
+    "plugins"
+  ],
+  "licence": "ISC",
+  "main": "cjs/index.js",
+  "module": "es/index.mjs",
+  "files": [
+    "es",
+    "lib"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ]
+}
