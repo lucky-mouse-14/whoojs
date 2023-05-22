@@ -28,7 +28,7 @@
     "publish:whoojs": "gulp --require @esbuild-kit/cjs-loader -f internal/publish/index.js",
     "prepare": "husky install",
     "commit": "git add -A && czg && git push",
-    "cz": "czg"
+    "release": "standard-version"
   },
   "config": {
     "commitizen": {
@@ -49,6 +49,7 @@
     "gulp-sass": "^5.1.0",
     "husky": "^8.0.3",
     "sass": "^1.62.1",
+    "standard-version": "^9.5.0",
     "sucrase": "^3.32.0"
   }
 }
