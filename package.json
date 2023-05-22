@@ -1,7 +1,7 @@
 {
   "name": "whoojs",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A bussiness component packages of Vue3 plugins or tools",
   "author": {
     "name": "jhoone-wu",
