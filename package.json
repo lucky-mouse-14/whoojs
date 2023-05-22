@@ -27,6 +27,7 @@
     "build:whoojs": "gulp --require @esbuild-kit/cjs-loader -f internal/build/index.js",
     "publish:whoojs": "gulp --require @esbuild-kit/cjs-loader -f internal/publish/index.js",
     "prepare": "husky install",
+    "cz": "czg",
     "commit": "git add -A && czg",
     "release": "standard-version"
   },
@@ -39,6 +40,7 @@
     "@commitlint/cli": "^17.6.3",
     "@commitlint/config-conventional": "^17.6.3",
     "@esbuild-kit/cjs-loader": "^2.4.2",
+    "@release-it/conventional-changelog": "^5.1.1",
     "add": "^2.0.6",
     "chalk": "^5.2.0",
     "consola": "^3.1.0",
@@ -48,8 +50,8 @@
     "gulp-autoprefixer": "^8.0.0",
     "gulp-sass": "^5.1.0",
     "husky": "^8.0.3",
+    "release-it": "^15.10.3",
     "sass": "^1.62.1",
-    "standard-version": "^9.5.0",
     "sucrase": "^3.32.0"
   }
 }
