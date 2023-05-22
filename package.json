@@ -27,7 +27,7 @@
     "build:whoojs": "gulp --require @esbuild-kit/cjs-loader -f internal/build/index.js",
     "publish:whoojs": "gulp --require @esbuild-kit/cjs-loader -f internal/publish/index.js",
     "prepare": "husky install",
-    "commit": "git add -A && czg && git push",
+    "commit": "git add -A && czg",
     "release": "standard-version"
   },
   "config": {
